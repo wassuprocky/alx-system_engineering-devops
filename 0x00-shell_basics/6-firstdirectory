@@ -1,4 +1,2 @@
 #!/bin/bash
-new_directory="/tmp/my_first_directory"
-mkdir "$new_directory"
-file "$new_directory"
+(mkdir /tmp/my_first_directory; file /tmp/my_first_directory)
